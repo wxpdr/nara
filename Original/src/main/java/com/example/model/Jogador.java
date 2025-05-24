@@ -20,7 +20,7 @@ public class Jogador {
     }
 
     public boolean isParou() {
-        return parou;
+        return parou || getPontuacao() >= 21;
     }
 
     public void parar() {
